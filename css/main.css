@@ -1,0 +1,113 @@
+* {
+  font-family: 'Press Start 2P', cursive; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+* {
+  font-family: 'Press Start 2P', cursive; }
+
+.header {
+  width: 100%;
+  background-color: #0c8185; }
+  .header__nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .header__nav__logo {
+      background-color: #eb4034;
+      width: 10%;
+      min-width: 90px;
+      height: 15vh;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: -1vh;
+      left: 0;
+      z-index: 1;
+      clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%); }
+    .header__nav__ul {
+      list-style: none;
+      padding: 2vh 0;
+      margin-bottom: 0; }
+      .header__nav__ul__li {
+        display: inline;
+        margin: 0 10px; }
+        .header__nav__ul__li a {
+          text-decoration: none;
+          color: white;
+          font-size: .8rem; }
+        .header__nav__ul__li a:hover {
+          color: #575757; }
+        .header__nav__ul__li div button {
+          font-size: .8rem;
+          color: white; }
+
+.dropdown-item:hover {
+  background-color: #eb4034;
+  color: white !important; }
+
+.naranja {
+  color: #3CEFE9 !important; }
+
+.verde {
+  color: #0c8185 !important; }
+
+body {
+  width: 100%;
+  background-color: #1e1e1e; }
+
+.sectionCarousel {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  object-position: bottom; }
+  .sectionCarousel .carousel {
+    width: 100%; }
+
+.main {
+  width: 90%;
+  min-height: 90vh;
+  color: white;
+  margin: 5vh auto; }
+  .main__content .noticia {
+    padding: 5vh 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px dashed #868686;
+    margin: 1vh 0; }
+    .main__content .noticia__info {
+      width: 60%;
+      padding: 1rem; }
+      .main__content .noticia__info__titulo {
+        font-size: 1.2rem; }
+      .main__content .noticia__info__contenido {
+        font-size: .9rem; }
+    .main__content .noticia__img {
+      width: 35%;
+      overflow: hidden; }
+  .main__indice {
+    background-color: #eb40349a;
+    padding-top: 5vh; }
+    .main__indice div h2 {
+      font-size: .8rem;
+      margin: 3vh auto;
+      color: white;
+      text-align: center; }
+
+.main {
+  width: 90%; }
+  .main__titulo {
+    margin: 3vh 0; }
+  .main__portada {
+    margin: 3vh 0; }
+  .main__progreso {
+    margin: 3vh 0; }
+  .main__barraProgreso {
+    margin: 3vh 0; }
+  .main__contenido {
+    margin: 3vh 8%; }

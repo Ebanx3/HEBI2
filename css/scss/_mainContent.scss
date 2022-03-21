@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    background-color: rgb(30,30,30);
+}
+
+.sectionCarousel{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    object-position: bottom;
+    .carousel{
+        width: 100%;
+    }
+}
+
+.main {
+    width: 90%;
+    min-height: 90vh;
+    color: white;
+    margin: 5vh auto;
+    &__content{
+        .noticia{
+            padding: 5vh 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-bottom: 1px dashed rgb(134, 134, 134);
+            margin: 1vh 0;
+            &__info{
+                width: 60%;
+                padding: 1rem;
+                &__titulo{
+                    font-size: 1.2rem;
+                }
+                &__contenido{
+                    font-size: .9rem;
+                }
+            }
+            &__img{
+                width: 35%;
+                overflow: hidden;
+            }
+        }
+    }
+    &__indice{
+        background-color: #eb40349a;
+        padding-top: 5vh;
+        div h2{
+            font-size: .8rem;
+            margin: 3vh auto;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+    }
+}
+

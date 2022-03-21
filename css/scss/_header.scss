@@ -1,0 +1,62 @@
+@import "./variables";
+
+.header{
+    width: 100%;
+    background-color: $color2;
+    //background: linear-gradient(90deg,$color1, $color2);
+    &__nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        &__logo{
+            //background-color: $color3;
+            background-color: #eb4034;
+            //background: linear-gradient($color3, $color5);
+            width: 10%;
+            min-width: 90px;
+            height: 15vh;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -1vh;
+            left: 0;
+            z-index: 1;
+            clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%);
+        }
+        &__ul{
+            list-style: none;
+            padding: 2vh 0;
+            margin-bottom: 0;
+            &__li{
+                display: inline;
+                margin: 0 10px;
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: .8rem;
+                }
+                a:hover{
+                    color: rgb(87, 87, 87);
+                }
+                div button{
+                    font-size: .8rem;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+}  
+
+.dropdown-item:hover{
+    background-color: #eb4034;
+    color: white !important;
+}
+
+.naranja{
+    color: $color1 !important;
+}
+
+.verde{
+    color: $color2 !important;
+}
