@@ -5,7 +5,10 @@
         text-decoration: underline $color3;
     }
     &__portada{
+        width: 100%;
         margin: 3vh 0;
+        clip-path: polygon(1% 1%, 95% 1%, 99% 99%, 5% 99%);
+        border: 1px white solid;
     }
     &__progreso{
         margin: 3vh 0;

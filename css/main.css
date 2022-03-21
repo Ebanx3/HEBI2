@@ -105,7 +105,10 @@ body {
     margin: 3vh 0;
     text-decoration: underline #ED5A09; }
   .main__portada {
-    margin: 3vh 0; }
+    width: 100%;
+    margin: 3vh 0;
+    clip-path: polygon(1% 1%, 95% 1%, 99% 99%, 5% 99%);
+    border: 1px white solid; }
   .main__progreso {
     margin: 3vh 0; }
   .main__barraProgreso {
