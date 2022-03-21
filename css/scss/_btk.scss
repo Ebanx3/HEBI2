@@ -2,6 +2,7 @@
     width: 90%;
     &__titulo{
         margin: 3vh 0;
+        text-decoration: underline $color3;
     }
     &__portada{
         margin: 3vh 0;
@@ -14,5 +15,9 @@
     }
     &__contenido{
         margin: 3vh 8%;
+        text-align: center;
+        span{
+            color: $color4;
+        }
     }
 }
